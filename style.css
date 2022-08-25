@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    background-image:url('./assets/pics/opticalnomad-EJ4qfFp1g8Q-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    background: #000000d0;
+    color: white;
+    padding: 90px 160px;
+    border-radius: 20px;
+    line-height: 1.8;
+}
+.search{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background: #7c7c7c2b;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    color: white;
+
+}
+
+ input.search-bar{
+    border: none;
+    background:#7c7c7c2b;
+    border: 1px solid white;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+    outline: none;
+    font-size: 120%;
+    width: 82%;
+    color: white;
+    position: relative;
+    left: -1%;
+}
+button:hover{
+    background: rgb(77, 74, 74);
+    transform: rotate(360deg)
+}
+
+input::-webkit-input-placeholder{
+    font-size: 17px;
+}
